@@ -6,7 +6,6 @@
 #define MAX_SYMBOLS 10
 
 // We use symbol index MAX_SYMBOLS to represent epsilon
-
 int n_states, n_symbols;
 char symbols[MAX_SYMBOLS];
 int start_state;
@@ -180,4 +179,5 @@ int main() {
     displayNFA();
     return 0;
 }
+
 
