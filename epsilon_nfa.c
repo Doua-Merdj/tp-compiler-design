@@ -13,6 +13,7 @@ int start_state;
 int is_final[MAX_STATES];
 
 // transitions[state][symbol_index][dest_state]
+
 int transitions[MAX_STATES][MAX_SYMBOLS + 1][MAX_STATES];
 
 // epsilon-closure of each state
@@ -179,3 +180,4 @@ int main() {
     displayNFA();
     return 0;
 }
+
